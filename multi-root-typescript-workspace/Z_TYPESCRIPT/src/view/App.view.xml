@@ -1,0 +1,15 @@
+<mvc:View
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m"
+  controllerName="example.Z_TYPESCRIPT.controller.App"
+  displayBlock="true"
+  width="100%"
+  height="100%">
+  <App>
+    <Page title="Z_TYPESCRIPT">
+      <Button
+        text="Press me Z_TYPESCRIPT"
+        press=".pressButton" />
+    </Page>
+  </App>
+</mvc:View>

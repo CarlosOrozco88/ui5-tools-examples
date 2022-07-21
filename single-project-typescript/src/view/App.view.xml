@@ -1,0 +1,12 @@
+<mvc:View
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m"
+  controllerName="example.singleProjectTypescript.controller.App"
+  displayBlock="true"
+  width="100%"
+  height="100%">
+  <App>
+    <Page title="Single Project Typescript">
+    </Page>
+  </App>
+</mvc:View>

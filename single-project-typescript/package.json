@@ -1,0 +1,11 @@
+{
+  "name": "example-singleProjectTypescript",
+  "version": "1.0.0",
+  "description": "Single Project typescript example",
+  "author": "SAP SE",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/openui5": "1.104.0",
+    "typescript": "^4.7.4"
+  }
+}
