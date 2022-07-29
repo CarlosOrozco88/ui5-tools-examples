@@ -1,6 +1,9 @@
 {
   "folders": [{ "path": "./Z_TYPESCRIPT" }, { "path": "./Z_TYPESCRIPT2" }],
   "settings": {
+    "files.exclude": {
+      "Z_*": true
+    },
     "search.exclude": {
       "**/.git": true,
       "**/node_modules": true,

@@ -5,6 +5,9 @@
     { "path": "./Z_APP2", "name": "Z_APP2" }
   ],
   "settings": {
+    "files.exclude": {
+      "Z_*": true
+    },
     "search.exclude": {
       "**/.git": true,
       "**/node_modules": true,
