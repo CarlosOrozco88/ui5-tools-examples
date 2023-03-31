@@ -1,0 +1,18 @@
+{
+  "deployer": {
+    "type": "Gateway",
+    "options": {
+      "conn": {
+        "server": "http://urlgw:port",
+        "client": "001"
+      },
+      "ui5": {
+        "language": "EN",
+        "package": "ZPACKAGE",
+        "bspcontainer": "ZBSPNAME",
+        "bspcontainer_text": "BSP Description",
+        "calc_appindex": true
+      }
+    }
+  }
+}
