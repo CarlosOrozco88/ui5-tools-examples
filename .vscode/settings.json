@@ -4,7 +4,7 @@
   "editor.guides.bracketPairs": true,
   "workbench.iconTheme": "material-icon-theme",
   "editor.codeActionsOnSave": {
-    "source.fixAll": true
+    "source.fixAll": "explicit"
   },
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",

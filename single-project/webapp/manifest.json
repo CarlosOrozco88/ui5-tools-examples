@@ -2,7 +2,16 @@
   "_version": "1.12.0",
   "sap.app": {
     "id": "example.singleProject",
-    "type": "application"
+    "type": "application",
+    "dataSources": {
+      "northwind": {
+        "uri": "/odata/V2/Northwind/Northwind.svc/",
+        "type": "OData",
+        "settings": {
+          "odataVersion": "2.0"
+        }
+      }
+    }
   },
   "sap.ui5": {
     "dependencies": {
@@ -17,6 +26,12 @@
       "type": "XML",
       "async": true,
       "id": "app"
+    },
+    "models": {
+      "northwind": {
+        "dataSource": "northwind",
+        "preload": true
+      }
     }
   }
 }
